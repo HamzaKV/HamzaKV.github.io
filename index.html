@@ -1,7 +1,278 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza Varvani</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="./index.js" defer></script>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <svg class="bg-svg-container" width="975" height="1024" viewBox="0 0 975 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path class="bg-svg" d="M140.039 286.78C145.037 64.0625 43.4084 59.2244 1 0H977V1025H545.797C545.797 1025 566.244 969.446 485.782 886.365C405.32 803.284 398.959 700.93 361.775 647.632C290.892 546.033 135.041 509.497 140.039 286.78Z"/>
+    </svg>
+    <header class="nav-container">
+        <nav class="navbar navbar-dark navbar-expand-lg py-3">
+            <a href="#" class="navbar-brand text-uppercase font-weight-bold">
+                <img src="./assets/logo.png" width="50px" height="50px"/>
+            </a>
+                <button 
+                    type="button" 
+                    data-toggle="collapse" 
+                    data-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation" 
+                    class="navbar-toggler custom-toggler navbar-toggler-right"
+                >
+                <span class="navbar-toggler-icon"></span> 
+                </button>
+                
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="#" id="main_link" class="nav-link text-uppercase font-weight-bold">Home</a>
+                        </li>
+                        <li class="nav-item"><a href="#" id="skills_link" class="nav-link text-uppercase font-weight-bold">Skills</a></li>
+                        <li class="nav-item"><a href="#" id="projects_link" class="nav-link text-uppercase font-weight-bold">Projects</a></li>
+                    </ul>
+                </div>
+        </nav>
+    </header>
+    <section class="page-container">
+        <div id="main" class="page">
+            <div class="col-one">
+                <div class="portrait-container">
+                    <div class="portrait" >
+                        <img class="portrait-image" src="./assets/headshot.png"/>
+                        <div class="portrait-overlay">
+                            <p class="portrait-text">I am a computer engineer graduate with experience in various frameworks such as Node, Laravel, React, React Native and Android Java. During my studies, I built a Computer Programming Language, a Neural Network, an implementation of a Graphics Card, simulation of a Computer Network, and a Chat app. Outside of school I participated in organizing a hack-a-thon, building websites using WordPress, creating a mobile app with a fully functioning chat bot, and building a wearable from scratch.</p>
+                        </div>
+                    </div>
+                    <h1 class="portrait-title">Hamza Varvani</h1>
+                </div>
+                <div class="social-media-container">
+                    <a class="social-media-link" target="_blank" href="https://www.linkedin.com/in/hamza-varvani-214252a9/">
+                        <img class="social-media-icon" src="./assets/linkedin-icon-2.svg" />
+                    </a>
+                    <a class="social-media-link" target="_blank" href="https://github.com/HamzaKV">
+                        <img class="social-media-icon" src="./assets/github-1.svg" />
+                    </a>
+                    <a class="social-media-link" target="_blank" href="https://www.facebook.com/Hamzakvarvani">
+                        <img class="social-media-icon" src="./assets/facebook-3.svg" />
+                    </a>
+                    <a class="social-media-link" target="_blank" href="https://twitter.com/hvarvani">
+                        <img class="social-media-icon" src="./assets/twitter-3.svg" />
+                    </a>
+                    <a class="social-media-link" target="_blank" href="https://www.instagram.com/hamzakv3/">
+                        <img class="social-media-icon" src="./assets/instagram-2-1.svg" />
+                    </a>
+                    <a class="social-media-link" target="_blank" href="mailto:hamza.k.varvani@gmail.com">
+                        <img class="social-media-icon" src="./assets/mail-ios.svg" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-two">
+                <div>
+                    <h1 class="main-text">Adaptability.</h1>
+                    <h1 class="main-text">Flexibility.</h1>
+                    <h1 class="main-text">Creativity.</h1>
+                    <h1 class="main-text">Innovation.</h1>
+                    <h1 class="main-text">Imagination.</h1>
+                </div>
+            </div>
+        </div>
+        <div id="skills" class="page skills-page hidden">
+            <div class="figures-container">
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/c-2975.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>C Lang</h3>
+                        <p>Proficiency: 8/10</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/html5.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>HTML</h3>
+                        <p>Proficiency: 10/10</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/css3.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>CSS</h3>
+                        <p>Proficiency: 10/10</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/javascript.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>Javascript</h3>
+                        <p>Proficiency: 9/10</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/typescript.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>Typescript</h3>
+                        <p>Proficiency: 7/10</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/php-1.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>PHP</h3>
+                        <p>Proficiency: 7/10</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/java.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>Java</h3>
+                        <p>Proficiency: 8/10</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/python-5.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>Python</h3>
+                        <p>Proficiency: 9/10</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/rust.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>Rust</h3>
+                        <p>Proficiency: 7/10</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/lua-5.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>LUA</h3>
+                        <p>Proficiency: 7/10</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/microsoft-sql-server.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>SQL</h3>
+                        <p>Proficiency: 8/10</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/wordpress-blue.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>WordPress</h3>
+                        <p>Proficiency: 8/10</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/laravel.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>Laravel</h3>
+                        <p>Proficiency: 7/10</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/nodejs.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>Node JS</h3>
+                        <p>Proficiency: 9/10</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/react.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>React</h3>
+                        <p>Proficiency: 9/10</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/google-cloud-1.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>GC/Firebase</h3>
+                        <p>Proficiency: 8/10</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/unity-technologies-logo.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>Unity</h3>
+                        <p>Proficiency: 7/10</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/adobe-creative-cloud-cc.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>Adobe CC</h3>
+                        <p>Proficiency: 7/10</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/logo-blender.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>Blender</h3>
+                        <p>Proficiency: 7/10</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="figure">
+                    <img class="gallery-image" src="./assets/figma-1.svg" alt="Portfolio Item">
+                    <figcaption class="image-caption">
+                        <h3>Figma</h3>
+                        <p>Proficiency: 8/10</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div id="projects" class="page showcase-page hidden">
+            <div class="showcase-button">
+                <button><img src="./assets/mdi_keyboard_arrow_up.svg"/></button>
+            </div>
+            <div class="showcase">
+                <div class="showcase-portrait">
+                    <img class="showcase-img" src="./assets/iit.png"/>
+                    <h1 class="showcase-title">islam.ca</h1>
+                </div>
+                <div class="showcase-info">
+                    <div>
+                        <h1>Islamic Institute of Toronto</h1>
+                        <p></p>
+                    </div>
+                    <div>
+                        <h1>My Role</h1>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="showcase-button">
+                <button><img src="./assets/mdi_keyboard_arrow_down.svg"/></button>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
