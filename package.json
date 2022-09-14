@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "main": "index.js",
   "repository": "https://github.com/HamzaKV/HamzaKV.github.io.git",
+  "homepage": "https://hamzakv.github.io/build",
   "author": "Hamza <hamzakv333@gmail.com>",
   "license": "MIT",
   "private": true,
