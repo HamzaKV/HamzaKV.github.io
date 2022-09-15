@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HamzaKV.github.io/static/css/main.386f0c22.css",
+    "main.js": "/HamzaKV.github.io/static/js/main.db86e0ba.js",
+    "index.html": "/HamzaKV.github.io/index.html",
+    "main.386f0c22.css.map": "/HamzaKV.github.io/static/css/main.386f0c22.css.map",
+    "main.db86e0ba.js.map": "/HamzaKV.github.io/static/js/main.db86e0ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.386f0c22.css",
+    "static/js/main.db86e0ba.js"
+  ]
+}
