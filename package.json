@@ -15,13 +15,16 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint .",
+    "deploy": "yarn build",
     "git:main:pull": "git checkout \"master\"",
     "git:main:push": "git push -u origin \"master\"",
     "git:main:merge": "git merge \"master\"",
-    "patch": "yarn git:main:pull && yarn version --patch && yarn build && yarn git:main:push",
-    "minor": "yarn git:main:pull && yarn version --minor && yarn build && yarn git:main:push",
-    "major": "yarn git:main:pull && yarn version --major && yarn build && yarn git:main:push",
-    "roll": "yarn patch"
+    "git:deploy:pull": "git checkout \"deploy\"",
+    "git:deploy:push": "git push -u origin \"deploy\"",
+    "patch": "yarn git:main:pull && yarn version --patch && yarn git:main:push",
+    "minor": "yarn git:main:pull && yarn version --minor && yarn git:main:push",
+    "major": "yarn git:main:pull && yarn version --major && yarn git:main:push",
+    "roll": "yarn patch && yarn deploy"
   },
   "dependencies": {
     "react": "^18.2.0",
