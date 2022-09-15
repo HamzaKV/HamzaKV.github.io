@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/HamzaKV.github.io/static/css/main.386f0c22.css",
-    "main.js": "/HamzaKV.github.io/static/js/main.db86e0ba.js",
-    "index.html": "/HamzaKV.github.io/index.html",
-    "main.386f0c22.css.map": "/HamzaKV.github.io/static/css/main.386f0c22.css.map",
-    "main.db86e0ba.js.map": "/HamzaKV.github.io/static/js/main.db86e0ba.js.map"
+    "main.css": "/static/css/main.386f0c22.css",
+    "main.js": "/static/js/main.db86e0ba.js",
+    "index.html": "/index.html",
+    "main.386f0c22.css.map": "/static/css/main.386f0c22.css.map",
+    "main.db86e0ba.js.map": "/static/js/main.db86e0ba.js.map"
   },
   "entrypoints": [
     "static/css/main.386f0c22.css",
