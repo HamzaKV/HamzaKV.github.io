@@ -7,6 +7,6 @@ export const mainMenuItems: MenuItem[] = [
     },
     {
         label: 'Projects',
-        path: '/projects',
+        path: '/#/projects',
     },
 ];

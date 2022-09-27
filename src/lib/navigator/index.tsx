@@ -1,13 +1,13 @@
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import Router from './router';
 import type { Component } from 'src/lib/types/component';
 import type { IProps } from './router';
 
 const Navigation: Component<IProps> = ({ routes, fallback }) => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Router fallback={fallback} routes={routes} />
-        </BrowserRouter>
+        </HashRouter>
     );
 };
 

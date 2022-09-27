@@ -1,10 +1,9 @@
-import { ReactNode, useMemo } from 'react';
+import { useMemo } from 'react';
 import {
     useLocation,
     Routes,
     Route,
     Navigate,
-    BrowserRouter,
 } from 'react-router-dom';
 import ScrollToTop from './scroll-to-top';
 import useWindowTitle from 'src/lib/controls/hooks/window-title';
