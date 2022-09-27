@@ -1,8 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.f52aab38.css",
-    "main.js": "/static/js/main.33cc1831.js",
+    "main.js": "/static/js/main.8867a760.js",
     "static/media/headshot.png": "/static/media/headshot.352da4197308bb81d086.png",
+    "static/media/hiride-web.png": "/static/media/hiride-web.c6d862c817efdb4a5c62.png",
+    "static/media/iit-web.png": "/static/media/iit-web.46d71f1898a2b3aed03a.png",
+    "static/media/techguilds-web.png": "/static/media/techguilds-web.bad91fa59d6653427588.png",
+    "static/media/realme-web.png": "/static/media/realme-web.e5583b869a7288ab8f40.png",
     "static/media/instagram-icon.svg": "/static/media/instagram-icon.1b7512afe9996a79a4f3032e0b4fcf30.svg",
     "static/media/email-icon.svg": "/static/media/email-icon.368eb8f6d0e1dd34b0edb3438d6eeb88.svg",
     "static/media/github-icon.svg": "/static/media/github-icon.3b41b4f7ce7bfe49c0e2d0d0e4d3ef4b.svg",
@@ -11,10 +15,10 @@
     "static/media/linkedin-icon.svg": "/static/media/linkedin-icon.accfd4a2d47fe4fcb78631fb58b11c98.svg",
     "static/media/facebook-icon.svg": "/static/media/facebook-icon.5f746c0f6effeca639507cc19a88c9a9.svg",
     "main.f52aab38.css.map": "/static/css/main.f52aab38.css.map",
-    "main.33cc1831.js.map": "/static/js/main.33cc1831.js.map"
+    "main.8867a760.js.map": "/static/js/main.8867a760.js.map"
   },
   "entrypoints": [
     "static/css/main.f52aab38.css",
-    "static/js/main.33cc1831.js"
+    "static/js/main.8867a760.js"
   ]
 }
