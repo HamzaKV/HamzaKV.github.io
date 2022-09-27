@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f52aab38.css",
-    "main.js": "/static/js/main.8b4bebcb.js",
+    "main.js": "/static/js/main.12a83455.js",
     "static/media/headshot.png": "/static/media/headshot.352da4197308bb81d086.png",
     "static/media/hiride-web.png": "/static/media/hiride-web.c6d862c817efdb4a5c62.png",
     "static/media/iit-web.png": "/static/media/iit-web.46d71f1898a2b3aed03a.png",
@@ -15,10 +15,10 @@
     "static/media/linkedin-icon.svg": "/static/media/linkedin-icon.27038ba449e347bc56b584eabc2a2748.svg",
     "static/media/facebook-icon.svg": "/static/media/facebook-icon.5baa2d79093e817cfd30ff1fb0b34001.svg",
     "main.f52aab38.css.map": "/static/css/main.f52aab38.css.map",
-    "main.8b4bebcb.js.map": "/static/js/main.8b4bebcb.js.map"
+    "main.12a83455.js.map": "/static/js/main.12a83455.js.map"
   },
   "entrypoints": [
     "static/css/main.f52aab38.css",
-    "static/js/main.8b4bebcb.js"
+    "static/js/main.12a83455.js"
   ]
 }
