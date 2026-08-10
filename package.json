@@ -1,70 +1,35 @@
 {
   "name": "HamzaKV.github.io",
-  "version": "0.0.5",
-  "main": "index.js",
+  "version": "1.0.0",
+  "type": "module",
   "repository": "https://github.com/HamzaKV/HamzaKV.github.io.git",
   "homepage": "https://hamzakv.github.io",
-  "author": "Hamza <hamzakv333@gmail.com>",
+  "author": "Hamza Varvani <hamzakv333@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
-    "dev": "react-scripts start",
-    "build": "react-scripts build",
-    "build:test": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint .",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
-    "git:main:pull": "git checkout \"master\"",
-    "git:main:push": "git push -u origin \"master\"",
-    "git:main:merge": "git merge \"master\"",
-    "git:deploy:pull": "git checkout \"deploy\"",
-    "git:deploy:push": "git push -u origin \"deploy\"",
-    "patch": "yarn git:main:pull && yarn version --patch && yarn git:main:push",
-    "minor": "yarn git:main:pull && yarn version --minor && yarn git:main:push",
-    "major": "yarn git:main:pull && yarn version --major && yarn git:main:push",
-    "roll": "yarn patch && yarn deploy"
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "lint": "biome check .",
+    "lint:fix": "biome check . --write"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.4.0",
-    "react-router-dom": "^6.4.0"
+    "solid-js": "^1.9.14",
+    "solidstep": "file:../solidstep/packages/solidstep/solidstep-1.1.2.tgz",
+    "vinxi": "0.5.8"
   },
   "devDependencies": {
-    "@babel/preset-typescript": "^7.18.6",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/react-hooks": "^8.0.1",
-    "@testing-library/user-event": "^14.4.3",
-    "@types/jest": "^29.0.2",
-    "@types/node": "^18.7.18",
-    "@types/react": "^18.0.20",
-    "@types/react-dom": "^18.0.6",
-    "@types/react-router-dom": "^5.3.3",
-    "@typescript-eslint/eslint-plugin": "^5.37.0",
-    "@typescript-eslint/parser": "^5.37.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-react": "^7.31.8",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "gh-pages": "^4.0.0",
-    "prettier": "^2.7.1",
-    "react-scripts": "^5.0.1",
-    "typescript": "^4.8.3",
-    "web-vitals": "^3.0.1"
+    "@biomejs/biome": "^2.2.4",
+    "typescript": "^5.8.3"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild"
     ]
   }
 }
