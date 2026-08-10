@@ -25,6 +25,21 @@ export const generateMeta = () => ({
             type: 'image/svg+xml',
         },
     },
+    faviconFallback: {
+        type: 'link',
+        attributes: {
+            rel: 'alternate icon',
+            href: '/favicon-32x32.png',
+            type: 'image/png',
+        },
+    },
+    appleTouchIcon: {
+        type: 'link',
+        attributes: {
+            rel: 'apple-touch-icon',
+            href: '/apple-touch-icon.png',
+        },
+    },
 });
 
 const Layout: Component<{ children: () => JSX.Element }> = (props) => {
